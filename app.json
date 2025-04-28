@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "note",
+    "slug": "note",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.note"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.note"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/PingFang-SC-Bold.ttf",
+            "./assets/fonts/PingFang-SC-Heavy.ttf",
+            "./assets/fonts/PingFang-SC-Medium.ttf",
+            "./assets/fonts/PingFang-SC-Regular.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}
